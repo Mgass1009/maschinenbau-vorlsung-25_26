@@ -20,7 +20,7 @@ while True:
     if operator == "exit" or operator == "e":
         break
     # if/elif/else waehlen genau einen der drei Zweige.
-    if operator  == "multiplikation" or operator ==  "m":
+    if operator in ["multiplikation","m", "muli", "*"]:
         # Multiplikation startet bei 1, damit das Ergebnis korrekt bleibt.
         ergebnis = 1
     # elif ist der zweite Zweig, falls das if nicht passt.
